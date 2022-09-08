@@ -1,0 +1,124 @@
+/* Tages */
+body{
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #A3E4DB;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+h1{
+  font-size: 80px;
+  margin-bottom: 0;
+  font-family: 'Dancing Script', cursive;
+}
+h2{
+  font-size: 30px;
+  margin-top: 20px;
+}
+h3{
+  font-size: 35px;
+}
+h4{
+  font-size: 20px;
+}
+hr{
+  border-style:dotted none none;
+  width: 10%;
+  border-width: 10px;
+  margin: 80px auto;
+}
+p{
+line-height: 2;
+color: #585c63;
+}
+a{
+margin: 0 30px;
+text-decoration: none;
+}
+a:hover{
+  color: #c0cfee;
+}
+/* Classes */
+.top-part{
+  color: #7F8487;
+  width:100%;
+  height: 625px;
+  position: relative;
+}
+.middle-part{
+padding: 50px 0;
+}
+.skill1{
+  text-align: left;
+  width: 60%;
+  margin: 100px auto;
+}
+.skill2{
+  text-align: right;
+  width: 60%;
+  margin: 150px auto;
+}
+.headline{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.images{
+  height: 200px;
+  width: 200px;
+}
+.footter{
+  height: 70px;
+  background-color: #82b6af;
+  padding-top: 25px;
+}
+.btn {
+  background: #32a8c4;
+  background-image: -webkit-linear-gradient(top, #32a8c4, #69c4d9);
+  background-image: -moz-linear-gradient(top, #32a8c4, #69c4d9);
+  background-image: -ms-linear-gradient(top, #32a8c4, #69c4d9);
+  background-image: -o-linear-gradient(top, #32a8c4, #69c4d9);
+  background-image: linear-gradient(to bottom, #32a8c4, #69c4d9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #406dcf;
+  background-image: -webkit-linear-gradient(top, #406dcf, #7d9cde);
+  background-image: -moz-linear-gradient(top, #406dcf, #7d9cde);
+  background-image: -ms-linear-gradient(top, #406dcf, #7d9cde);
+  background-image: -o-linear-gradient(top, #406dcf, #7d9cde);
+  background-image: linear-gradient(to bottom, #406dcf, #7d9cde);
+  text-decoration: none;
+}
+/* Ides */
+#img1{
+  margin-right:20px;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+#img2{
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+#intro{
+
+}
+#copy{
+  font-size: 10px;
+  padding-top:20px;
+}
